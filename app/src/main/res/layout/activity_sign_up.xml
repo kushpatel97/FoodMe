@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SignUpActivity">
+    tools:context=".SignUpActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="#FDFDFD">
 
     <LinearLayout
         android:id="@+id/ll_su_forms"
@@ -74,7 +76,7 @@
             app:layout_constraintTop_toBottomOf="@+id/lg_tf_password" />
 
         <TextView
-            android:id="@+id/lg_m_signUp"
+            android:id="@+id/su_m_logIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

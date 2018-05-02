@@ -88,7 +88,8 @@ public class SignUpActivity extends AppCompatActivity {
                             if(task.isSuccessful()){
                                 Log.d(TAG, "createUserWithEmail:success");
 //                                FirebaseUser user = mAuth.getCurrentUser();
-//                                System.out.println(user.getUid() + "=======================================");
+                                System.out.println("Going to Home"+ "=======================================");
+
                                 Intent goToLogIn = new Intent(SignUpActivity.this, LoginActivity.class);
                                 startActivity(goToLogIn);
                             }
